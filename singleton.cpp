@@ -1,3 +1,7 @@
+//A simple textbook implementation of singleton class
+//1. Make the default constructor as private, this will disallow the direct creation of the singleton object
+//2. Create a static data member to store the instance pointer
+//3. Create a static function that will return the available instance if present or else creates a new object
 
 #include <iostream>
 
